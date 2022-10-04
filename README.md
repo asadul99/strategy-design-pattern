@@ -1,4 +1,4 @@
-# Strategy Design Pattern, no set strategy and no if/else no switch/case
+# Strategy Design Pattern, no set strategy nor no if/else nor switch/case
 
 This pattern falls under the category of behavioral pattern and as the name suggests, it allows clients to choose an algorithm from a set of algorithms at run time.
 
