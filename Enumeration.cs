@@ -4,5 +4,6 @@ public enum EnumNotificationMethod
 {
     None = 0,
     SMS = 1,
-    Email = 2
+    Email = 2,
+    Slack = 3
 }

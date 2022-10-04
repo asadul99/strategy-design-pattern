@@ -13,6 +13,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 //register dependencies
+builder.Services.AddTransient<INotificationStrategy, SlackNotificationStrategy>();
 builder.Services.AddTransient<INotificationStrategy, EmailNotificationStrategy>();
 builder.Services.AddTransient<INotificationStrategy, SMSNotificationStrategy>();
 builder.Services.AddTransient<INotificationContext, NotificationContext>();
