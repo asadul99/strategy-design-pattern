@@ -4,6 +4,8 @@ This pattern falls under the category of behavioral pattern and as the name sugg
 
 Most of the people uses a set strategy method like this
 ![Set strategy method](https://github.com/asadul99/strategy-design-pattern/blob/master/sc/set-strategy-method.PNG?raw=true)
+
+
 But the strategy should resolve run time depending the strategy method
 
 And some one uses if/else or switch/case for deciding the strategy that's violate `Open Close` principle.
